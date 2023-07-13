@@ -1,7 +1,7 @@
 pipeline{
   agent any
   stages{
-    stage("make directory")}
+    stage("make directory"){
       steps{
         sh "mkdir ~/first-jenkins-test"
       }
